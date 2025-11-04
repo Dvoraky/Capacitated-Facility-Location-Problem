@@ -1,0 +1,280 @@
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+Tried aggregator 1 time.
+Reduced MIP has 7262 rows, 7162 columns, and 28348 nonzeros.
+Reduced MIP has 7162 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (29.08 ticks)
+Found incumbent of value 17000.500000 after 0.12 sec. (93.02 ticks)
+Probing time = 0.01 sec. (4.07 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 7262 rows, 7162 columns, and 28348 nonzeros.
+Reduced MIP has 7162 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (32.92 ticks)
+Probing time = 0.01 sec. (4.09 ticks)
+Clique table members: 8175.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.16 sec. (145.67 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        17000.5000        0.0000           100.00%
+*     0+    0                         3921.2000        0.0000           100.00%
+*     0+    0                         3831.0000        0.0000           100.00%
+*     0+    0                         3767.0000        0.0000           100.00%
+*     0+    0                         3710.4000        0.0000           100.00%
+*     0+    0                         3606.9000        0.0000           100.00%
+*     0+    0                         3516.9000        0.0000           100.00%
+*     0+    0                         3450.7000        0.0000           100.00%
+*     0+    0                         3371.5000        0.0000           100.00%
+*     0+    0                         3312.0000        0.0000           100.00%
+      0     0     2769.0364   271     3312.0000     2769.0364      946   16.39%
+      0     0     2784.6578   299     3312.0000      Cuts: 33     1193   15.92%
+      0     0     2792.3484   326     3312.0000      Cuts: 19     1354   15.69%
+      0     0     2795.8481   299     3312.0000      Cuts: 17     1475   15.58%
+*     0+    0                         3212.7000     2795.8481            12.98%
+*     0+    0                         3112.8000     2795.8481            10.18%
+*     0+    0                         3093.0000     2795.8481             9.61%
+*     0+    0                         3085.1000     2795.8481             9.38%
+*     0+    0                         3032.9000     2795.8481             7.82%
+*     0+    0                         2976.8000     2795.8481             6.08%
+*     0+    0                         2960.2000     2795.8481             5.55%
+*     0+    0                         2943.2000     2795.8481             5.01%
+      0     0  -1.00000e+75     0     2943.2000     2795.8481     1475    5.01%
+*     0+    0                         2874.9000     2795.8481             2.75%
+      0     0     2797.4760   325     2874.9000      Cuts: 15     1556    2.69%
+Detecting symmetries...
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 3071 rows and 3071 columns.
+Reduced MIP has 4191 rows, 4091 columns, and 16064 nonzeros.
+Reduced MIP has 4091 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (14.94 ticks)
+Probing time = 0.01 sec. (3.16 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 4191 rows, 4091 columns, and 16064 nonzeros.
+Reduced MIP has 4091 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (15.50 ticks)
+Represolve time = 0.08 sec. (59.30 ticks)
+Probing time = 0.01 sec. (3.18 ticks)
+Clique table members: 3768.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.16 sec. (167.34 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         2874.9000     2797.4760             2.69%
+      0     0     2797.4760   325     2874.9000     2797.4760     2892    2.69%
+      0     0     2798.2533   320     2874.9000       Cuts: 4     2956    2.67%
+      0     0     2799.9818   337     2874.9000       Cuts: 5     3020    2.61%
+      0     0     2800.8160   337     2874.9000       Cuts: 8     3081    2.58%
+      0     0     2800.9666   334     2874.9000   ZeroHalf: 2     3111    2.57%
+      0     0     2801.2472   334     2874.9000       Cuts: 3     3151    2.56%
+      0     0     2801.6367   323     2874.9000       Cuts: 2     3213    2.55%
+      0     0     2801.9695   322     2874.9000       Cuts: 2     3251    2.54%
+      0     0     2802.2554   323     2874.9000       Cuts: 5     3279    2.53%
+*     0+    0                         2871.1000     2802.2554             2.40%
+      0     0  -1.00000e+75     0     2871.1000     2802.2554     3279    2.40%
+      0     0     2802.5589   330     2871.1000   ZeroHalf: 4     3316    2.39%
+Detecting symmetries...
+      0     2     2802.5589   330     2871.1000     2802.5589     3316    2.39%
+Elapsed time = 5.73 sec. (3697.02 ticks, tree = 0.02 MB, solutions = 20)
+      9    11     2827.1558   271     2871.1000     2802.5650     4771    2.39%
+     49    29     2836.0596   217     2871.1000     2803.2579     7792    2.36%
+     90    78     2834.2153   263     2871.1000     2803.2579    21787    2.36%
+    159   110     2848.7579   212     2871.1000     2806.7164    39436    2.24%
+    219   152     2841.8682   167     2871.1000     2807.5490    49977    2.21%
+    282   221        cutoff           2871.1000     2807.5490    63906    2.21%
+    367   246     2840.1984   259     2871.1000     2807.5490    67794    2.21%
+    468   346     2866.3963   161     2871.1000     2809.4501    81806    2.15%
+    562   387     2853.6394   202     2871.1000     2814.0023    85734    1.99%
+    946   709     2848.9240   141     2871.1000     2818.9522   122749    1.82%
+Elapsed time = 9.53 sec. (6837.13 ticks, tree = 4.43 MB, solutions = 20)
+   1364   992     2858.6969   173     2871.1000     2821.3586   157892    1.73%
+*  1425+ 1005                         2868.4000     2821.4655             1.64%
+   1780  1264        cutoff           2868.4000     2823.5002   190254    1.57%
+*  2136  1608      integral     0     2860.7000     2824.8808   230444    1.25%
+   2577  1628     2848.0783   265     2860.7000     2826.7994   267447    1.19%
+   3021  1899     2847.5773   146     2860.7000     2827.9305   302330    1.15%
+
+Performing restart 1
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 823 rows and 823 columns.
+MIP Presolve modified 6 coefficients.
+Reduced MIP has 3368 rows, 3268 columns, and 12772 nonzeros.
+Reduced MIP has 3268 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (13.93 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 6 coefficients.
+Reduced MIP has 3368 rows, 3268 columns, and 12772 nonzeros.
+Reduced MIP has 3268 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (15.26 ticks)
+Represolve time = 0.08 sec. (53.98 ticks)
+   3308     0     2809.3654   317     2860.7000       Cuts: 6   341289    1.11%
+   3308     2     2809.3654   317     2860.7000     2828.9373   341289    1.11%
+   3311     3     2819.5501   285     2860.7000     2828.9373   341619    1.11%
+   3316     8     2820.1183   309     2860.7000     2828.9373   342280    1.11%
+   3325    14     2821.8164   244     2860.7000     2828.9373   343243    1.11%
+   3343    28     2841.8765   262     2860.7000     2828.9373   345191    1.11%
+Elapsed time = 22.86 sec. (18985.56 ticks, tree = 0.11 MB, solutions = 22)
+   3363    48     2831.7799   233     2860.7000     2828.9373   348474    1.11%
+   3386    69     2833.2178   205     2860.7000     2828.9373   351370    1.11%
+   3482    97     2839.3484   226     2860.7000     2828.9373   356652    1.11%
+   3621   132     2851.2587   233     2860.7000     2828.9373   364328    1.11%
+   3928   285     2860.4121   120     2860.7000     2828.9373   395951    1.11%
+   4317   368     2857.2350   148     2860.7000     2828.9373   412484    1.11%
+   4729   594     2856.1104   170     2860.7000     2828.9373   445602    1.11%
+*  5150+  969                         2856.5000     2828.9373             0.96%
+   5199  1013     2842.6836   174     2856.5000     2828.9373   512203    0.96%
+*  5290  1064      integral     0     2854.2000     2829.9679   540360    0.85%
+   5749  1147     2850.2292   227     2854.2000     2831.0708   578739    0.81%
+Elapsed time = 33.78 sec. (27879.45 ticks, tree = 1.95 MB, solutions = 24)
+*  5960  1263      integral     0     2842.8000     2832.1984   605489    0.37%
+   6118  1393     2842.4952   263     2842.8000     2832.7028   630884    0.36%
+
+Cover cuts applied:  142
+Mixed integer rounding cuts applied:  48
+Zero-half cuts applied:  23
+
+Root node processing (before b&c):
+  Real time             =    5.71 sec. (3687.43 ticks)
+Parallel b&c, 8 threads:
+  Real time             =   30.12 sec. (25763.90 ticks)
+  Sync time (average)   =    2.61 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   35.83 sec. (29451.32 ticks)
+Status da Solucao = Optimal
+Valor da Solucao (Custo Minimo) = 2842.8
+Facilidades Construidas:
+  Facilidade 1
+  Facilidade 5
+  Facilidade 11
+  Facilidade 13
+  Facilidade 15
+  Facilidade 17
+  Facilidade 19
+  Facilidade 20
+  Facilidade 23
+  Facilidade 25
+  Facilidade 26
+  Facilidade 29
+  Facilidade 31
+  Facilidade 33
+  Facilidade 42
+  Facilidade 50
+  Facilidade 51
+  Facilidade 64
+  Facilidade 74
+  Facilidade 78
+  Facilidade 94
+Atendimentos:
+  Facilidade 1 -> Cliente 35
+  Facilidade 1 -> Cliente 43
+  Facilidade 1 -> Cliente 49
+  Facilidade 1 -> Cliente 61
+  Facilidade 1 -> Cliente 73
+  Facilidade 5 -> Cliente 14
+  Facilidade 5 -> Cliente 44
+  Facilidade 5 -> Cliente 59
+  Facilidade 5 -> Cliente 83
+  Facilidade 5 -> Cliente 86
+  Facilidade 11 -> Cliente 19
+  Facilidade 11 -> Cliente 30
+  Facilidade 11 -> Cliente 58
+  Facilidade 11 -> Cliente 65
+  Facilidade 11 -> Cliente 82
+  Facilidade 11 -> Cliente 84
+  Facilidade 13 -> Cliente 11
+  Facilidade 13 -> Cliente 66
+  Facilidade 13 -> Cliente 72
+  Facilidade 13 -> Cliente 76
+  Facilidade 15 -> Cliente 7
+  Facilidade 15 -> Cliente 8
+  Facilidade 15 -> Cliente 38
+  Facilidade 15 -> Cliente 54
+  Facilidade 17 -> Cliente 1
+  Facilidade 17 -> Cliente 39
+  Facilidade 17 -> Cliente 69
+  Facilidade 17 -> Cliente 87
+  Facilidade 17 -> Cliente 99
+  Facilidade 19 -> Cliente 16
+  Facilidade 19 -> Cliente 63
+  Facilidade 19 -> Cliente 95
+  Facilidade 19 -> Cliente 96
+  Facilidade 20 -> Cliente 67
+  Facilidade 20 -> Cliente 88
+  Facilidade 20 -> Cliente 89
+  Facilidade 20 -> Cliente 100
+  Facilidade 23 -> Cliente 9
+  Facilidade 23 -> Cliente 32
+  Facilidade 23 -> Cliente 41
+  Facilidade 23 -> Cliente 45
+  Facilidade 23 -> Cliente 74
+  Facilidade 25 -> Cliente 13
+  Facilidade 25 -> Cliente 21
+  Facilidade 25 -> Cliente 34
+  Facilidade 25 -> Cliente 37
+  Facilidade 25 -> Cliente 97
+  Facilidade 26 -> Cliente 18
+  Facilidade 26 -> Cliente 29
+  Facilidade 26 -> Cliente 68
+  Facilidade 26 -> Cliente 75
+  Facilidade 26 -> Cliente 80
+  Facilidade 29 -> Cliente 12
+  Facilidade 29 -> Cliente 27
+  Facilidade 29 -> Cliente 52
+  Facilidade 29 -> Cliente 57
+  Facilidade 29 -> Cliente 64
+  Facilidade 31 -> Cliente 2
+  Facilidade 31 -> Cliente 17
+  Facilidade 31 -> Cliente 47
+  Facilidade 31 -> Cliente 62
+  Facilidade 33 -> Cliente 15
+  Facilidade 33 -> Cliente 22
+  Facilidade 33 -> Cliente 50
+  Facilidade 33 -> Cliente 93
+  Facilidade 42 -> Cliente 26
+  Facilidade 42 -> Cliente 28
+  Facilidade 42 -> Cliente 36
+  Facilidade 42 -> Cliente 70
+  Facilidade 42 -> Cliente 79
+  Facilidade 50 -> Cliente 4
+  Facilidade 50 -> Cliente 6
+  Facilidade 50 -> Cliente 24
+  Facilidade 50 -> Cliente 48
+  Facilidade 50 -> Cliente 78
+  Facilidade 51 -> Cliente 20
+  Facilidade 51 -> Cliente 31
+  Facilidade 51 -> Cliente 33
+  Facilidade 51 -> Cliente 40
+  Facilidade 51 -> Cliente 56
+  Facilidade 51 -> Cliente 98
+  Facilidade 64 -> Cliente 5
+  Facilidade 64 -> Cliente 51
+  Facilidade 64 -> Cliente 53
+  Facilidade 64 -> Cliente 60
+  Facilidade 64 -> Cliente 91
+  Facilidade 74 -> Cliente 3
+  Facilidade 74 -> Cliente 25
+  Facilidade 74 -> Cliente 81
+  Facilidade 74 -> Cliente 85
+  Facilidade 78 -> Cliente 42
+  Facilidade 78 -> Cliente 46
+  Facilidade 78 -> Cliente 55
+  Facilidade 78 -> Cliente 90
+  Facilidade 78 -> Cliente 92
+  Facilidade 94 -> Cliente 10
+  Facilidade 94 -> Cliente 23
+  Facilidade 94 -> Cliente 71
+  Facilidade 94 -> Cliente 77
+  Facilidade 94 -> Cliente 94
